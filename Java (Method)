@@ -1,0 +1,43 @@
+import java.util.Scanner;
+public class Main {
+    static double addition(double a, double b){
+        double c;
+        c=a+b;
+        System.out.println("Result= "+c);
+        return c;
+    }
+    
+    static double substraction(double a, double b){
+        double c;
+        c=a-b;
+        System.out.println("Result= "+c);
+        return c;
+    }
+    
+    static double multiplication(double a, double b){
+        double c;
+        c=a*b;
+        System.out.println("Result= "+c);
+        return c;
+    }
+    
+    static double division(double a, double b){
+        double c;
+        c=a/b;
+        System.out.println("Result= "+c);
+        return c;
+    }
+    
+    public static void main(String[] args) {
+        Scanner sc= new Scanner(System.in);
+        System.out.println("Enter 2 Numbers: ");
+        double a=sc.nextDouble ();
+        double b=sc.nextDouble ();
+        addition (a, b);
+        substraction (a, b);
+        multiplication (a, b);
+        division (a, b);
+        
+    }
+    
+}
